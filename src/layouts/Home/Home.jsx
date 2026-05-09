@@ -1,13 +1,14 @@
 import Banner from "../../components/Banner/Banner";
 import Portfolio from "../../components/PortfolioSection/Portfolio";
-import Service from "../../components/Service/Service";
+import About from "../../components/Service/About";
+
 
 
 const Home = () => {
     return (
         <div>
           <Banner/>
-          <Service/>
+          <About/>
           <Portfolio/>
         </div>
     );

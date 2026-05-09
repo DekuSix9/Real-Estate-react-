@@ -1,0 +1,173 @@
+.main-container{
+    background-color: black;
+}
+
+.content-container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+/* text section */
+.text-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.title-text{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.description-text{
+    color: #C8C8C8;
+    max-width: 500px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+/* stats section */
+.stats-card{
+    position: relative;
+    margin-top: 100px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.stat-img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.stats-grid{
+    position: absolute;
+    inset: 0;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    align-items: center;
+    justify-items: center;
+
+    background: rgba(0,0,0,0.4);
+}
+
+.stat-item{
+    text-align: center;
+}
+
+.stat-number{
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.stat-label{
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+/* laptop screen */
+
+
+@media screen and (max-width: 1200px){
+
+    .title-text{
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .stat-number{
+        font-size: 40px;
+    }
+}
+
+
+/* tablet screen */
+
+@media screen and (max-width: 992px){
+
+    .text-container{
+        flex-direction: column;
+    }
+
+    .description-text{
+        max-width: 100%;
+    }
+
+    .stats-grid{
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 40px;
+        padding: 40px 20px;
+    }
+
+    .stat-img{
+        height: 500px;
+    }
+}
+
+/* mobile screen */
+
+@media screen and (max-width: 768px){
+
+    .main-container{
+        padding: 0 15px;
+    }
+
+    .content-container{
+        padding: 70px 0;
+    }
+
+    .title-text{
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .description-text{
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .stats-grid{
+        grid-template-columns: 1fr;
+        row-gap: 35px;
+    }
+
+    .stat-img{
+        height: 650px;
+    }
+
+    .stat-number{
+        font-size: 36px;
+    }
+
+    .stat-label{
+        font-size: 16px;
+    }
+}
+
+
+/* small mobile */
+
+@media screen and (max-width: 480px){
+
+    .title-text{
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .stat-img{
+        height: 550px;
+    }
+
+    .stat-number{
+        font-size: 30px;
+    }
+}
