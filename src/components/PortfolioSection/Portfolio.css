@@ -47,13 +47,10 @@
 .stats-grid{
     position: absolute;
     inset: 0;
-
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-
     align-items: center;
     justify-items: center;
-
     background: rgba(0,0,0,0.4);
 }
 
@@ -78,10 +75,12 @@
 
 
 @media screen and (max-width: 1200px){
-
+    .content-container{
+        padding: 100px 30px;
+    }
     .title-text{
-        font-size: 36px;
-        line-height: 44px;
+        font-size: 28px;
+        
     }
 
     .stat-number{

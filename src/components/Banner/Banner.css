@@ -147,7 +147,9 @@
 /* laptop screen */
 
 @media screen and (max-width: 1200px){
-
+    .banner-content{
+        padding-bottom: 20px;
+    }
     .banner-title{
         font-size: 38px;
         line-height: 45px;

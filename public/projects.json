@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "image": "https://plus.unsplash.com/premium_photo-1678903964473-1271ecfb0288?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "sector": "Residential",
+    "projectName": "Modern Family House",
+    "location": "California, USA",
+    "price": "$450,000",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": "2500 sqft",
+    "status": "For Sale",
+    "rating": 4.8,
+    "description": "A beautiful modern family house with premium facilities and spacious rooms."
+  },
+
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1603779931001-a6b508e5da81?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "sector": "Commercial",
+    "projectName": "Corporate Office Tower",
+    "location": "New York, USA",
+    "price": "$1,200,000",
+    "bedrooms": 0,
+    "bathrooms": 6,
+    "area": "12000 sqft",
+    "status": "For Rent",
+    "rating": 4.7,
+    "description": "Premium commercial office tower located in the heart of the business district."
+  },
+
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1613977257365-aaae5a9817ff?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "sector": "Luxury Villa",
+    "projectName": "Ocean View Villa",
+    "location": "Miami, USA",
+    "price": "$950,000",
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "area": "4200 sqft",
+    "status": "For Sale",
+    "rating": 4.9,
+    "description": "Luxury villa with stunning ocean views and high-end interior design."
+  },
+
+  {
+    "id": 4,
+    "image": "https://plus.unsplash.com/premium_photo-1678963247798-0944cf6ba34d?q=80&w=739&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "sector": "Apartment",
+    "projectName": "Skyline Apartment",
+    "location": "Toronto, Canada",
+    "price": "$320,000",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": "1800 sqft",
+    "status": "For Sale",
+    "rating": 4.6,
+    "description": "Modern apartment with city skyline views and excellent amenities."
+  },
+
+  {
+    "id": 5,
+    "image": "https://plus.unsplash.com/premium_photo-1678903964473-1271ecfb0288?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "sector": "Residential",
+    "projectName": "Green Garden Home",
+    "location": "Sydney, Australia",
+    "price": "$540,000",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": "2700 sqft",
+    "status": "Sold",
+    "rating": 4.5,
+    "description": "Eco-friendly residential property with large garden space."
+  },
+
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1520608421741-68228b76b6df?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "sector": "Penthouse",
+    "projectName": "Elite Penthouse",
+    "location": "Dubai, UAE",
+    "price": "$2,500,000",
+    "bedrooms": 6,
+    "bathrooms": 5,
+    "area": "6500 sqft",
+    "status": "For Sale",
+    "rating": 5.0,
+    "description": "Exclusive luxury penthouse with rooftop pool and panoramic city view."
+  }
+]
